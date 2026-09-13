@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Project datasets
+data/*
+!data/README.md
+
+# Spark outputs
+*.parquet
+checkpoint/
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Spark temporary files
+_SUCCESS
+*.crc
+
+# Logs
+*.log
+
+# IDE
+.vscode/
